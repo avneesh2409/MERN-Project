@@ -1,0 +1,22 @@
+# GET http://localhost:9000/api/book HTTP/1.1
+# content-type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDMwZGE2N2ZkMTUxODQyMTgwMTBkZDQiLCJmaXJzdE5hbWUiOiJTaGFsaW5pIiwibGFzdE5hbWUiOiJNYXRodXIiLCJlbWFpbCI6IlNoYWxpbmlAZ21haWwuY29tIiwiaWF0IjoxNjEzODE0OTcwLCJleHAiOjE2MTM4MjIxNzB9.PRloUHAinFE9fxBS-g9_ERJ-TW-nOzB5QuRzVqBQtO8
+
+POST http://localhost:9000/api/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "email":"avneesh@gmail.com",
+    "password":"123456"
+}
+
+
+# POST http://localhost:3000/api/book HTTP/1.1
+# content-type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDMwZGE2N2ZkMTUxODQyMTgwMTBkZDQiLCJmaXJzdE5hbWUiOiJTaGFsaW5pIiwibGFzdE5hbWUiOiJNYXRodXIiLCJlbWFpbCI6IlNoYWxpbmlAZ21haWwuY29tIiwiaWF0IjoxNjEzODE0OTcwLCJleHAiOjE2MTM4MjIxNzB9.PRloUHAinFE9fxBS-g9_ERJ-TW-nOzB5QuRzVqBQtO8
+
+# {
+#     "title":"Killing England",
+#     "description":"known facts about a particular, time, culture, or event in history",
+#     "isbn":"12345671234"
+# }
